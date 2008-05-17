@@ -12,6 +12,4 @@
 
 - (void)suggestSpellingCorrection:(NSPasteboard *)pboard userData:(NSString *)userData error:(NSString **)error;
 
-- (NSString *)googleSuggestionForPhrase:(NSString *)phrase;
-
 @end

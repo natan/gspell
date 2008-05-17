@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D868D8200DDF9EDB000FDF35 /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D868D81F0DDF9EDB000FDF35 /* NSStringAdditions.m */; };
 		D8714BF3094987C6001C8E62 /* Speller.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BDCB5109497789002FCF5D /* Speller.m */; };
 		D8714BF6094987C6001C8E62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		D8714BF9094987DE001C8E62 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -21,6 +22,8 @@
 		32CA4F630368D1EE00C91783 /* gSpell_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gSpell_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D8410A300949876A004E71D2 /* gSpell.service */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gSpell.service; sourceTree = BUILT_PRODUCTS_DIR; };
+		D868D81E0DDF9EDB000FDF35 /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringAdditions.h; sourceTree = "<group>"; };
+		D868D81F0DDF9EDB000FDF35 /* NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringAdditions.m; sourceTree = "<group>"; };
 		D8BDCB5009497789002FCF5D /* Speller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Speller.h; sourceTree = "<group>"; };
 		D8BDCB5109497789002FCF5D /* Speller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Speller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,6 +45,8 @@
 			children = (
 				D8BDCB5009497789002FCF5D /* Speller.h */,
 				D8BDCB5109497789002FCF5D /* Speller.m */,
+				D868D81E0DDF9EDB000FDF35 /* NSStringAdditions.h */,
+				D868D81F0DDF9EDB000FDF35 /* NSStringAdditions.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 			files = (
 				D8714BF3094987C6001C8E62 /* Speller.m in Sources */,
 				D8714BF6094987C6001C8E62 /* main.m in Sources */,
+				D868D8200DDF9EDB000FDF35 /* NSStringAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
